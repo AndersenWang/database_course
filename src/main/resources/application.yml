@@ -1,0 +1,16 @@
+server:
+  port: 11451
+spring:
+  application:
+    name: database_course
+  security:
+    filter:
+      order: -100
+    jwt:
+      key: 114514
+      expire: 7
+  datasource:
+    url: jdbc:mysql://47.101.203.178:3306/database_course
+    username: user1
+    password: '114514@114514@'
+    driver-class-name: com.mysql.cj.jdbc.Driver
